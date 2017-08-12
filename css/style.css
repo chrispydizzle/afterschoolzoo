@@ -1,0 +1,714 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* line 4, ../scss/style.scss */
+body {
+    font-size: 16px;
+}
+
+/* line 8, ../scss/style.scss */
+.navbar {
+    background-color: #FFF;
+}
+
+/* line 12, ../scss/style.scss */
+header {
+    background-color: #66CEFF;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* line 26, ../scss/style.scss */
+header h1 {
+    text-transform: uppercase;
+    margin-top: -10px;
+    margin-bottom: -8px;
+    font-family: 'Baloo Bhaina', 'Roboto', Monospace;
+    font-size: 60px;
+}
+
+/* line 34, ../scss/style.scss */
+header h4 {
+    font-family: 'Roboto', Monospace;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+}
+
+/* line 40, ../scss/style.scss */
+#about img:hover {
+    content: url("https://res.cloudinary.com/diqby9s8j/image/upload/v1489758147/coding-cat_e5vani.gif");
+}
+
+/* line 44, ../scss/style.scss */
+.social a {
+    margin: 5px;
+    color: #66CEFF;
+    font-size: 1em;
+}
+
+/* line 50, ../scss/style.scss */
+.social a:hover {
+    margin: 5px;
+    color: #333333;
+}
+
+/* line 55, ../scss/style.scss */
+.btn-primary {
+    background-color: #66CEFF;
+    border: none;
+}
+
+/* line 60, ../scss/style.scss */
+.btn-primary:hover {
+    background-color: #333333;
+    border: none;
+}
+
+/* line 65, ../scss/style.scss */
+ul {
+    list-style-type: none;
+}
+
+/* line 69, ../scss/style.scss */
+.img-circle {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* line 75, ../scss/style.scss */
+.styled-text {
+    font-family: 'Baloo Bhaina', 'Roboto', Monospace;
+    font-size: 2.5em;
+}
+
+/* line 80, ../scss/style.scss */
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #F5F5F5;
+}
+
+/* line 86, ../scss/style.scss */
+#work {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* line 91, ../scss/style.scss */
+#contact {
+    padding-top: 50px;
+    padding-bottom: 250px;
+    background: #F5F5F5;
+}
+
+/* line 97, ../scss/style.scss */
+.wrap {
+    position: relative;
+    width: 100%;
+}
+
+/* line 102, ../scss/style.scss */
+.wrap--guttered {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+/* line 107, ../scss/style.scss */
+.wrap--guttered--s {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+/* line 112, ../scss/style.scss */
+.wrap--guttered--l {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+/* line 117, ../scss/style.scss */
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+/* line 121, ../scss/style.scss */
+img, object, embed {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    width: auto;
+    width: auto \9;
+    /* IE Fix */
+    height: auto;
+}
+
+/* line 132, ../scss/style.scss */
+figure, audio, video {
+    margin: 0;
+}
+
+/* line 136, ../scss/style.scss */
+.mediabox {
+    position: relative;
+    height: 0;
+    padding-top: 100%;
+}
+
+/* line 142, ../scss/style.scss */
+.mediabox img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* line 150, ../scss/style.scss */
+.mediabox--4-3 {
+    padding-top: 75%;
+}
+
+/* line 154, ../scss/style.scss */
+.mediabox--3-2 {
+    padding-top: 66.6667%;
+}
+
+/* line 158, ../scss/style.scss */
+.mediabox--16-9 {
+    padding-top: 56.25%;
+}
+
+/* line 162, ../scss/style.scss */
+.mediabox--2-1 {
+    padding-top: 50%;
+}
+
+/* line 166, ../scss/style.scss */
+.maxwidth {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* line 171, ../scss/style.scss */
+.maxwidth--xs {
+    max-width: 320px;
+}
+
+/* line 175, ../scss/style.scss */
+.maxwidth--s {
+    max-width: 480px;
+}
+
+/* line 179, ../scss/style.scss */
+.maxwidth--m {
+    max-width: 600px;
+}
+
+/* line 183, ../scss/style.scss */
+.maxwidth--l {
+    max-width: 768px;
+}
+
+/* line 187, ../scss/style.scss */
+.maxwidth--xl {
+    max-width: 992px;
+}
+
+/* line 191, ../scss/style.scss */
+.maxwidth--xxl {
+    max-width: 1280px;
+}
+
+/* line 195, ../scss/style.scss */
+.maxwidth--xxxl {
+    max-width: 1600px;
+}
+
+/* line 199, ../scss/style.scss */
+.margin--none {
+    margin-bottom: 0 !important;
+}
+
+/* line 203, ../scss/style.scss */
+.margin--xs {
+    margin-bottom: 4px !important;
+}
+
+/* line 207, ../scss/style.scss */
+.margin--s {
+    margin-bottom: 8px !important;
+}
+
+/* line 211, ../scss/style.scss */
+.margin--m {
+    margin-bottom: 16px !important;
+}
+
+/* line 215, ../scss/style.scss */
+.margin--l {
+    margin-bottom: 24px !important;
+}
+
+/* line 219, ../scss/style.scss */
+.margin--xl {
+    margin-bottom: 32px !important;
+}
+
+/* line 223, ../scss/style.scss */
+.margin--xxl {
+    margin-bottom: 48px !important;
+}
+
+/* line 227, ../scss/style.scss */
+.margin--xxxl {
+    margin-bottom: 64px !important;
+}
+
+/* line 231, ../scss/style.scss */
+.grid {
+    font-size: 0;
+    text-justify: distribute-all-lines;
+}
+
+/* line 236, ../scss/style.scss */
+.grid__cell {
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+/* line 244, ../scss/style.scss */
+.grid__cell--xs--1-1 {
+    width: 100%;
+}
+
+/* line 248, ../scss/style.scss */
+.grid__cell--xs--4-5 {
+    width: 80%;
+}
+
+/* line 252, ../scss/style.scss */
+.grid__cell--xs--3-4 {
+    width: 75%;
+}
+
+/* line 256, ../scss/style.scss */
+.grid__cell--xs--2-3 {
+    width: 66.6667%;
+}
+
+/* line 260, ../scss/style.scss */
+.grid__cell--xs--3-5 {
+    width: 60%;
+}
+
+/* line 264, ../scss/style.scss */
+.grid__cell--xs--1-2 {
+    width: 50%;
+}
+
+/* line 268, ../scss/style.scss */
+.grid__cell--xs--2-5 {
+    width: 40%;
+}
+
+/* line 272, ../scss/style.scss */
+.grid__cell--xs--1-3 {
+    width: 33.3334%;
+}
+
+/* line 276, ../scss/style.scss */
+.grid__cell--xs--1-4 {
+    width: 25%;
+}
+
+/* line 280, ../scss/style.scss */
+.grid__cell--xs--1-5 {
+    width: 20%;
+}
+
+/* line 284, ../scss/style.scss */
+.grid__cell--xs--1-6 {
+    width: 16.66667%;
+}
+
+@media only screen and (min-width: 480px) {
+    /* line 289, ../scss/style.scss */
+    .grid__cell--s--1-1 {
+        width: 100%;
+    }
+
+    /* line 292, ../scss/style.scss */
+    .grid__cell--s--4-5 {
+        width: 80%;
+    }
+
+    /* line 295, ../scss/style.scss */
+    .grid__cell--s--3-4 {
+        width: 75%;
+    }
+
+    /* line 298, ../scss/style.scss */
+    .grid__cell--s--2-3 {
+        width: 66.6667%;
+    }
+
+    /* line 301, ../scss/style.scss */
+    .grid__cell--s--3-5 {
+        width: 60%;
+    }
+
+    /* line 304, ../scss/style.scss */
+    .grid__cell--s--1-2 {
+        width: 50%;
+    }
+
+    /* line 307, ../scss/style.scss */
+    .grid__cell--s--2-5 {
+        width: 40%;
+    }
+
+    /* line 310, ../scss/style.scss */
+    .grid__cell--s--1-3 {
+        width: 33.3334%;
+    }
+
+    /* line 313, ../scss/style.scss */
+    .grid__cell--s--1-4 {
+        width: 25%;
+    }
+
+    /* line 316, ../scss/style.scss */
+    .grid__cell--s--1-5 {
+        width: 20%;
+    }
+
+    /* line 319, ../scss/style.scss */
+    .grid__cell--s--1-6 {
+        width: 16.66667%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* line 325, ../scss/style.scss */
+    .grid__cell--m--1-1 {
+        width: 100%;
+    }
+
+    /* line 328, ../scss/style.scss */
+    .grid__cell--m--4-5 {
+        width: 80%;
+    }
+
+    /* line 331, ../scss/style.scss */
+    .grid__cell--m--3-4 {
+        width: 75%;
+    }
+
+    /* line 334, ../scss/style.scss */
+    .grid__cell--m--2-3 {
+        width: 66.6667%;
+    }
+
+    /* line 337, ../scss/style.scss */
+    .grid__cell--m--3-5 {
+        width: 60%;
+    }
+
+    /* line 340, ../scss/style.scss */
+    .grid__cell--m--1-2 {
+        width: 50%;
+    }
+
+    /* line 343, ../scss/style.scss */
+    .grid__cell--m--2-5 {
+        width: 40%;
+    }
+
+    /* line 346, ../scss/style.scss */
+    .grid__cell--m--1-3 {
+        width: 33.3334%;
+    }
+
+    /* line 349, ../scss/style.scss */
+    .grid__cell--m--1-4 {
+        width: 25%;
+    }
+
+    /* line 352, ../scss/style.scss */
+    .grid__cell--m--1-5 {
+        width: 20%;
+    }
+
+    /* line 355, ../scss/style.scss */
+    .grid__cell--m--1-6 {
+        width: 16.66667%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* line 361, ../scss/style.scss */
+    .grid__cell--l--1-1 {
+        width: 100%;
+    }
+
+    /* line 364, ../scss/style.scss */
+    .grid__cell--l--4-5 {
+        width: 80%;
+    }
+
+    /* line 367, ../scss/style.scss */
+    .grid__cell--l--3-4 {
+        width: 75%;
+    }
+
+    /* line 370, ../scss/style.scss */
+    .grid__cell--l--2-3 {
+        width: 66.6667%;
+    }
+
+    /* line 373, ../scss/style.scss */
+    .grid__cell--l--3-5 {
+        width: 60%;
+    }
+
+    /* line 376, ../scss/style.scss */
+    .grid__cell--l--1-2 {
+        width: 50%;
+    }
+
+    /* line 379, ../scss/style.scss */
+    .grid__cell--l--2-5 {
+        width: 40%;
+    }
+
+    /* line 382, ../scss/style.scss */
+    .grid__cell--l--1-3 {
+        width: 33.3334%;
+    }
+
+    /* line 385, ../scss/style.scss */
+    .grid__cell--l--1-4 {
+        width: 25%;
+    }
+
+    /* line 388, ../scss/style.scss */
+    .grid__cell--l--1-5 {
+        width: 20%;
+    }
+
+    /* line 391, ../scss/style.scss */
+    .grid__cell--l--1-6 {
+        width: 16.66667%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* line 397, ../scss/style.scss */
+    .grid__cell--xl--1-1 {
+        width: 100%;
+    }
+
+    /* line 400, ../scss/style.scss */
+    .grid__cell--xl--4-5 {
+        width: 80%;
+    }
+
+    /* line 403, ../scss/style.scss */
+    .grid__cell--xl--3-4 {
+        width: 75%;
+    }
+
+    /* line 406, ../scss/style.scss */
+    .grid__cell--xl--2-3 {
+        width: 66.6667%;
+    }
+
+    /* line 409, ../scss/style.scss */
+    .grid__cell--xl--3-5 {
+        width: 60%;
+    }
+
+    /* line 412, ../scss/style.scss */
+    .grid__cell--xl--1-2 {
+        width: 50%;
+    }
+
+    /* line 415, ../scss/style.scss */
+    .grid__cell--xl--2-5 {
+        width: 40%;
+    }
+
+    /* line 418, ../scss/style.scss */
+    .grid__cell--xl--1-3 {
+        width: 33.3334%;
+    }
+
+    /* line 421, ../scss/style.scss */
+    .grid__cell--xl--1-4 {
+        width: 25%;
+    }
+
+    /* line 424, ../scss/style.scss */
+    .grid__cell--xl--1-5 {
+        width: 20%;
+    }
+
+    /* line 427, ../scss/style.scss */
+    .grid__cell--xl--1-6 {
+        width: 16.66667%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    /* line 433, ../scss/style.scss */
+    .grid__cell--xxl--1-1 {
+        width: 100%;
+    }
+
+    /* line 436, ../scss/style.scss */
+    .grid__cell--xxl--4-5 {
+        width: 80%;
+    }
+
+    /* line 439, ../scss/style.scss */
+    .grid__cell--xxl--3-4 {
+        width: 75%;
+    }
+
+    /* line 442, ../scss/style.scss */
+    .grid__cell--xxl--2-3 {
+        width: 66.6667%;
+    }
+
+    /* line 445, ../scss/style.scss */
+    .grid__cell--xxl--3-5 {
+        width: 60%;
+    }
+
+    /* line 448, ../scss/style.scss */
+    .grid__cell--xxl--1-2 {
+        width: 50%;
+    }
+
+    /* line 451, ../scss/style.scss */
+    .grid__cell--xxl--2-5 {
+        width: 40%;
+    }
+
+    /* line 454, ../scss/style.scss */
+    .grid__cell--xxl--1-3 {
+        width: 33.3334%;
+    }
+
+    /* line 457, ../scss/style.scss */
+    .grid__cell--xxl--1-4 {
+        width: 25%;
+    }
+
+    /* line 460, ../scss/style.scss */
+    .grid__cell--xxl--1-5 {
+        width: 20%;
+    }
+
+    /* line 463, ../scss/style.scss */
+    .grid__cell--xxl--1-6 {
+        width: 16.66667%;
+    }
+}
+
+/* line 468, ../scss/style.scss */
+.grid--guttered {
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -16px;
+}
+
+/* line 474, ../scss/style.scss */
+.grid--guttered .grid__cell {
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+/* line 479, ../scss/style.scss */
+.grid--guttered--s {
+    margin-right: -4px;
+    margin-left: -4px;
+    margin-bottom: -8px;
+}
+
+/* line 485, ../scss/style.scss */
+.grid--guttered--s .grid__cell {
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-bottom: 8px;
+}
+
+/* line 491, ../scss/style.scss */
+.grid--guttered--l {
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-bottom: -24px;
+}
+
+/* line 497, ../scss/style.scss */
+.grid--guttered--l .grid__cell {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-bottom: 24px;
+}
+
+/* line 503, ../scss/style.scss */
+.content {
+    background: #FAFAFA;
+    padding: 16px 0;
+}
+
+/* line 508, ../scss/style.scss */
+.content header {
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+/* line 513, ../scss/style.scss */
+.card {
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+/* line 521, ../scss/style.scss */
+.card .card__inner {
+    padding: 16px;
+}
+
+/* line 525, ../scss/style.scss */
+.card .card__inner :last-child {
+    margin-bottom: 0;
+}
+
+/* line 529, ../scss/style.scss */
+footer {
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background: #333333;
+}
+
+/* line 536, ../scss/style.scss */
+img {
+    display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
